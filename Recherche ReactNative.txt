@@ -1,4 +1,4 @@
-React native est comme react , il utilise des composants natifs 
+React native est comme react , il utilise des composants native 
 
 les concepts de base de react : 
 
@@ -7,7 +7,7 @@ JSX : est une extension syntaxique de JS
 const element = <h1> Bonjour </h1>  <=> const element =React.createElement("h1","Bonjour");
 
 
-Component : les composants permet de découper l'interface utilisateur en éléments indépendants et réutilisables . permettant ainsi de considérer chaque élément de 
+Component :  les composants permet de découper l'interface utilisateur en éléments indépendants et réutilisables . permettant ainsi de considérer chaque élément de 
 maniére isolée 
 déclaration de composant et props : 
 function welcome(props) {
