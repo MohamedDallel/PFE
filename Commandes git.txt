@@ -1,0 +1,48 @@
+Git est un logiciel permettant de suivre les modifications dans n'importe quel ensemble de fichiers , 
+généralement utilisé pour coordonner le travail entre les programmeurs développant en collaboration le code source pendant le développement du logiciel . 
+Ses objectifs incluent la vitesse, l'intégrité des données et la prise en charge des flux de travail distribués et non linéaires
+
+
+
+
+
+git init : créer un nouveau dépot git 
+
+
+git add : commandesGit.txt : ajouter un fichier nommé commandeGit.text dans le répertoire local 
+
+
+git config --global user.name "Mohamed Aziz Dallel" : set name 
+
+git config --global user.email "medaziz.dallel@gmail.com" set email 
+
+
+git remote add origin https://github.com/MohamedDallel/testapp : connexion de dépot local à github
+
+git commit –m “Description du commit” : laisser une discription du modification 
+
+
+git status : affichage de liste des fichiers modifiés 
+
+git push origin master : envoie les modification 
+
+
+test de modification 
+
+git branch : lister les branche 
+
+git branch -d <nom du branche> : supprimer une branche 
+
+
+git checkout -b <nom du branche>
+
+git checkout < nom branche >
+
+
+git reset --hard 
+
+
+test de branche 
+
+git merge <nom du branche>
+
