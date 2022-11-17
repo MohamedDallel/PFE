@@ -9,6 +9,7 @@ const element = <h1> Bonjour </h1>  <=> const element =React.createElement("h1",
 
 Component :  les composants permet de découper l'interface utilisateur en éléments indépendants et réutilisables . permettant ainsi de considérer chaque élément de 
 maniére isolée 
+e e e e helloos
 déclaration de composant et props : 
 function welcome(props) {
 return <h1> Bonjour , {props.name} </h1>; 
